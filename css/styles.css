@@ -101,7 +101,7 @@ header{
   color: white;
   height: 400px;                /* Parallax effect */
   background-image: url('../images/header.jpg');
-  background-color: #DDDDDD #858585 #707070 #B3B3B3;
+  background-color: #858585;
   grid-row: 2 / span 1;
   grid-column: 1 / -1;
 }
