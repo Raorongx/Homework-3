@@ -47,8 +47,8 @@ nav a:hover{
   transition: top 1s ease-out;
   z-index: 1;
   position: absolute;
-  left: -500px;
-  top: -40px;
+  bottom: 40px;
+  right: 500px;
 }
 
 .skip a:focus{
