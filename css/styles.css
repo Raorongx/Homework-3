@@ -53,7 +53,7 @@ nav a:hover{
 
 .skip a:focus{
   background: white;
-  top: -20px;
+  top: 0px;
   left: 0;
   padding: 6px;
   -webkit-transition: top 1s ease-out;
@@ -161,6 +161,12 @@ header p{
 }
 
 @media all and (min-width: 800px){
+    
+  .skip a:focus{
+  positiom:absolute;
+  top: 20px;
+  left: 0;
+ }
 
   .container{
     display: grid;
